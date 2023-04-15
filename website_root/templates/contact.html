@@ -1,0 +1,482 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/contact.css'%}"> <!-- Main stile -->
+</head>
+<body>
+
+
+    <div class="header">
+    <div class="container">
+
+        <div class="header__left_text_block">
+            <a href="/">Главная</a>
+            <a href="/About">О нас</a>
+            <a href="/contact">Контакты</a>
+        </div>
+
+        <div class="header__right_text_block">
+            <div class="header__right_text_block__contact">
+                <img src="{% static 'img/phone.svg'%}" alt="">
+                <p>8 (964) 89 99 119</p>
+            </div>
+
+            <div class="header__right_text_block__delivery">
+                <img src="{% static 'img/delivery.svg'%}" alt="">
+                <a href="/Delivery">Доставка</a>
+            </div>
+        </div>
+
+    </div>
+</div> <!-- Main header -->
+
+    <div class="header2">
+    <div class="header2_container">
+
+        <div class="header2__top_block"> <!-- Top -->
+            <div class="header2__burger_menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="header2__logo">
+                <img src="{% static 'img/logo.svg'%}" alt="">
+            </div>
+
+            <div class="header2__input_block">
+                <button class="header2__input_block__button"><img src="{% static 'img/search.svg'%}" alt=""></button>
+                <input type="text" name="" id="" class="header2__input_block__input">
+            </div>
+
+            <div class="header2__buttons_block">
+                <button><img src="{% static 'img/wishlist.svg' %}" alt=""></button>
+                <button><img src="{% static 'img/bag.svg' %}" alt=""></button>
+                <button><img src="{% static 'img/profile.svg' %}" alt=""></button>
+            </div>
+        </div>
+
+        <div class="header2__bottom_block"> <!-- Bottom -->
+            <div class="header2__bottom_block__input_block">
+                <button class="header2__bottom_block__input_block__button"><img src="{% static 'img/search.svg'%}" alt=""></button>
+                <input type="text" name="" id="" class="header2__bottom_block__input_block__input">
+            </div>
+        </div>
+
+    </div>
+</div> <!-- Second header, input bar -->
+
+    <div class="header3">
+    <div class="header3__container">
+
+        <div class="header3__menu_block">
+
+            <div class="header3__menu_block__element0 element">
+                <div class="header3__menu_block__element0__content_block element_block">
+                    <img src="{% static 'img/kitchen-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Кухни</a>
+
+                    <ul class="sub-menu-list0 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Кухонные уголки</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Обеденная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Мойки, сушилки, смесители для кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Дополнительная фурнитура</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Бытовыя техника</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header3__menu_block__element1 element">
+                <div class="header3__menu_block__element1__content_block element_block">
+                    <img src="{% static 'img/bedroom-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Спальни</a>
+
+                    <ul class="sub-menu-list1 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Мойки, сушилки, смесители для кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Дополнительная фурнитура</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Бытовыя техника</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header3__menu_block__element2 element">
+                <div class="header3__menu_block__element2__content_block element_block">
+                    <img src="{% static 'img/livingroom-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Гостинные</a>
+
+                    <ul class="sub-menu-list2 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Кухонные уголки</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Обеденная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Мойки, сушилки, смесители для кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Дополнительная фурнитура</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Бытовыя техника</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header3__menu_block__element3 element">
+                <div class="header3__menu_block__element3__content_block element_block">
+                    <img src="{% static 'img/closet-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Прихожие</a>
+
+                    <ul class="sub-menu-list3 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Кухонные уголки</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Обеденная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Мойки, сушилки, смесители для кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Дополнительная фурнитура</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Дополнительная фурнитура</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Бытовыя техника</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header3__menu_block__element4 element hide">
+                <div class="header3__menu_block__element4__content_block element_block">
+                    <img src="{% static 'img/office-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Офисная мебель</a>
+
+                    <ul class="sub-menu-list4 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Кухонные уголки</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Обеденная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                </div>
+            </div>
+
+            <div class="header3__menu_block__element5 element">
+                <div class="header3__menu_block__element5__content_block element_block">
+                    <img src="{% static 'img/childrensroom-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Детская</a>
+
+                    <ul class="sub-menu-list5 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Кухонные уголки</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Обеденная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="header3__menu_block__element6 element">
+                <div class="header3__menu_block__element6__content_block element_block">
+                    <img src="{% static 'img/bedroom-icon.svg'%}" alt="">
+                    <a href="#" class="main-link">Спальни</a>
+
+                    <ul class="sub-menu-list6 sub-menu-list">
+                        <li>
+                            <a href="" class="list-item">Модульные кухни</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Барная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Кухонные уголки</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Обеденная зона</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Столешницы</a>
+                        </li>
+                        <li>
+                            <a href="" class="list-item">Стеновые панели</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div> <!-- Main manu, header -->
+
+
+<main class="main">
+    <div class="main__container">
+
+        <div class="main__path_direction">
+            <div>Main / Contacts</div>
+        </div>
+
+        <div class="main__content_block">
+            <div class="main__content_block__title">
+                <div>Свяжитесь с нами</div>
+            </div>
+
+            <div class="main__content_block__forms_and_information">
+
+            <form method="post">
+                {% csrf_token %}
+                <div class="main__content_block__forms_and_information__formss">
+                    <div class="main__content_block__forms_and_information__forms__top_blocks">
+                        <div class="main__content_block__forms_and_information__forms__top_blocks__name_block">
+                            <div>Your Name</div>
+                            {{ form.user_name }}
+                        </div>
+                        <div class="main__content_block__forms_and_information__forms__top_blocks__email_block">
+                            <div>Your Email</div>
+                            {{ form.user_email }}
+                        </div>
+                    </div>
+
+                    <div class="main__content_block__forms_and_information__forms__bottom_block">
+                        <div class="main__content_block__forms_and_information__forms__bottom_block__text_block">
+                            <div>Message</div>
+                            {{ form.user_message }}
+                        </div>
+
+                    </div>
+
+                    <div class="main__content_block__forms_and_information__forms__button_block">
+                        <button type="submit" class="main__content_block__forms_and_information__forms__button_block__send_button">Send</button>
+<!--                        <button class="main__content_block__forms_and_information__forms__button_block__select_button select_button">Select File</button>-->
+<!--                        <input type="file" class="select_file" style="display: none">-->
+                    </div>
+                </div>
+            </form>
+
+                <div class="main__content_block__forms_and_information__information">
+                        <div class="main__content_block__forms_and_information__information__contacts_block">
+                            <div class="main__content_block__forms_and_information__information__contacts_block__phone_block">
+                                <img src="{% static 'img/phone_dark.svg' %}" alt="">
+                                <div>8 (964) 89 99 119</div>
+                            </div>
+
+                            <div class="main__content_block__forms_and_information__information__contacts_block__email">
+                                <img src="{% static 'img/mail.svg' %}" alt="">
+                                <div>mebel_loft_anapa@mail.ru</div>
+                            </div>
+                        </div>
+
+                        <div class="main__content_block__forms_and_information__information__social_block">
+                            <div class="main__content_block__forms_and_information__information__social_block__instagram">
+                                <img src="{% static 'img/inst.svg' %}" alt="">
+                                <div>INSTAGRAM</div>
+                            </div>
+                        </div>
+
+                        <div class="main__content_block__forms_and_information__information__address_block">
+                            <div>Адрес: г. Анапа, Анапское шоссе, 30 Ж/К Черное море</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</main>
+
+    <div class="map_block">
+    <div class="map_block__container">
+        <div class="map_block__container__title">
+            <div>Our company address</div>
+        </div>
+
+        <iframe class="map_for_contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1730.2772463135689!2d-4.224264799681838!3d57.47768896381303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f71520bd3b22b%3A0xccd4341af0d8c074!2s41%20High%20St%2C%20Inverness%20IV1%201HT!5e0!3m2!1sru!2suk!4v1670885332374!5m2!1sru!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="footer__container">
+
+        <div class="footer__content_block">
+            <div class="footer__content_block__left_block">
+
+                <div class="footer__content_block__left_block__content_block">
+                    <div class="footer__content_block__left_block__content_block__title">
+                        <div>NAVIGATION</div>
+                    </div>
+
+                    <div class="footer__content_block__left_block__content_block__categoreis_block">
+                            <div class="footer__content_block__left_block__content_block__categoreis_block__block_1">
+                                <a href="">Kitchen</a>
+                                <a href="">Badroom</a>
+                                <a href="">Living rooms</a>
+                            </div>
+                            <div class="footer__content_block__left_block__content_block__categoreis_block__block_2">
+                                <a href="">Hallways</a>
+                                <a href="">Office furniture</a>
+                                <a href="">Baby room</a>
+                            </div>
+                            <div class="footer__content_block__left_block__content_block__categoreis_block__block_3">
+                                <a href="">Cabinets</a>
+                                <a href="">Mattresses</a>
+                                <a href="">Cushioned furniture</a>
+                            </div>
+                    </div>
+
+                    <div class="footer__content_block__left_block__content_block__extra_category_block">
+                        <div>Stock</div>
+                        <div>New</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer__content_block__right_block" align="right">
+                <div class="footer__content_block__right_block__content_block">
+                    <div class="footer__content_block__right_block__content_block__logo">
+                        <img src="{% static 'img/logo.png' %}" alt="">
+                    </div>
+
+                    <div class="footer__content_block__right_block__content_block__address">
+                        <div>г. Анапа, Анапское шоссе, </br>
+                            30 Ж/К Черное море
+                            </div>
+                    </div>
+
+                    <div class="footer__content_block__right_block__content_block__contacts">
+                        <div class="footer__content_block__right_block__content_block__contacs__phone">
+                            <img src="{% static 'img/phone_dark.svg' %}" alt="">
+                            <div>8 (964) 89 99 119</div>
+                        </div>
+
+                        <div class="footer__content_block__right_block__content_block__contacs__instagram">
+                            <img src="{% static 'img/inst.svg' %}" alt="">
+                            <div>INSTAGRAM</div>
+                        </div>
+
+                        <div class="footer__content_block__right_block__content_block__contacs__email">
+                            <img src="{% static 'img/mail.svg' %}" alt="">
+                            <div>mebel_loft_anapa@mail.ru</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer> <!-- Footer -->
+
+
+     <!-- JQuery js file -->
+     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+     <script src="https://code.jquery.com/jquery-migrate-3.4.0.js"></script>
+
+     <!-- Main js file -->
+     <script src="{% static 'js/contact.js'%}"></script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+For start server:
+First need go to this direction "Django/venv/bin" and to pust in terminal this command "source activate"
+After that you need return in this direction "Django/website_root" then pust this command in terminal "python3 manage.py runserver"
+
+For migration:
